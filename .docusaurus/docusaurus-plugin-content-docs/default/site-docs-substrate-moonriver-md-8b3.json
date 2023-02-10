@@ -1,0 +1,31 @@
+{
+  "unversionedId": "substrate/moonriver",
+  "id": "substrate/moonriver",
+  "title": "Moonriver page title!",
+  "description": "My document description",
+  "source": "@site/docs/substrate/moonriver.md",
+  "sourceDirName": "substrate",
+  "slug": "/substrate/moonriver-snapshot",
+  "permalink": "/docs/substrate/moonriver-snapshot",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/substrate/moonriver.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Moonriver",
+    "sidebar_position": 2,
+    "slug": "moonriver-snapshot",
+    "title": "Moonriver page title!",
+    "description": "My document description"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Astar",
+    "permalink": "/docs/substrate/astar-snapshot"
+  },
+  "next": {
+    "title": "Shiden",
+    "permalink": "/docs/substrate/shiden-snapshot"
+  }
+}

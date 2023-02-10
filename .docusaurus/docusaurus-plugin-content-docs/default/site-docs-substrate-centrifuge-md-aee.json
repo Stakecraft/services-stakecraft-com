@@ -1,0 +1,31 @@
+{
+  "unversionedId": "substrate/centrifuge",
+  "id": "substrate/centrifuge",
+  "title": "Centrifuge page title!",
+  "description": "My document description",
+  "source": "@site/docs/substrate/centrifuge.md",
+  "sourceDirName": "substrate",
+  "slug": "/substrate/centrifuge-snapshot",
+  "permalink": "/docs/substrate/centrifuge-snapshot",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/substrate/centrifuge.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Centrifuge",
+    "sidebar_position": 3,
+    "slug": "centrifuge-snapshot",
+    "title": "Centrifuge page title!",
+    "description": "My document description"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Shiden",
+    "permalink": "/docs/substrate/shiden-snapshot"
+  },
+  "next": {
+    "title": "Tendermint",
+    "permalink": "/docs/category/tendermint"
+  }
+}

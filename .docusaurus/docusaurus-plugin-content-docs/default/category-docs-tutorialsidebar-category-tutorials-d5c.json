@@ -1,0 +1,16 @@
+{
+  "title": "Tutorials",
+  "description": "All tutorials.",
+  "slug": "/category/tutorials",
+  "permalink": "/docs/category/tutorials",
+  "navigation": {
+    "previous": {
+      "title": "The Graph",
+      "permalink": "/docs/other/thegraph-snapshot"
+    },
+    "next": {
+      "title": "Tutorial - Basics",
+      "permalink": "/docs/category/tutorial---basics"
+    }
+  }
+}

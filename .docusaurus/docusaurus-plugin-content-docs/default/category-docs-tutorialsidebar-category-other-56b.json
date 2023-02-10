@@ -1,0 +1,16 @@
+{
+  "title": "Other",
+  "description": "Other networks snapshots.",
+  "slug": "/category/other",
+  "permalink": "/docs/category/other",
+  "navigation": {
+    "previous": {
+      "title": "Stargaze",
+      "permalink": "/docs/tendermint/stargaze-snapshot"
+    },
+    "next": {
+      "title": "The Graph",
+      "permalink": "/docs/other/thegraph-snapshot"
+    }
+  }
+}

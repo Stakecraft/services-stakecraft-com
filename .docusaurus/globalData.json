@@ -1,0 +1,143 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "other/the-graph",
+              "path": "/docs/other/thegraph-snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "substrate/astar",
+              "path": "/docs/substrate/astar-snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "substrate/centrifuge",
+              "path": "/docs/substrate/centrifuge-snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "substrate/moonriver",
+              "path": "/docs/substrate/moonriver-snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "substrate/shiden",
+              "path": "/docs/substrate/shiden-snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tendermint/juno",
+              "path": "/docs/tendermint/juno-snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tendermint/stargaze",
+              "path": "/docs/tendermint/stargaze-snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-basics/congratulations",
+              "path": "/docs/tutors/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutors/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-basics/create-a-document",
+              "path": "/docs/tutors/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-basics/create-a-page",
+              "path": "/docs/tutors/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-basics/deploy-your-site",
+              "path": "/docs/tutors/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-basics/markdown-features",
+              "path": "/docs/tutors/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutors/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-extras/translate-your-site",
+              "path": "/docs/tutors/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutors/tutorial-intro",
+              "path": "/docs/tutors/tutorial-intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/substrate",
+              "path": "/docs/category/substrate",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tendermint",
+              "path": "/docs/category/tendermint",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/other",
+              "path": "/docs/category/other",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorials",
+              "path": "/docs/category/tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

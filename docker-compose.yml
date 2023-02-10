@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  docusaurus:
+    build: .
+    ports:
+      - 3000:3000
+    command: bash -c "npm run serve -- --port 3000 --host 0.0.0.0"
+    volumes:
+      - ${PWD}:/app/website
+    working_dir: /app/website

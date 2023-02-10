@@ -1,0 +1,16 @@
+{
+  "title": "Tendermint",
+  "description": "Tendermint networks snapshots.",
+  "slug": "/category/tendermint",
+  "permalink": "/docs/category/tendermint",
+  "navigation": {
+    "previous": {
+      "title": "Centrifuge",
+      "permalink": "/docs/substrate/centrifuge-snapshot"
+    },
+    "next": {
+      "title": "Juno",
+      "permalink": "/docs/tendermint/juno-snapshot"
+    }
+  }
+}

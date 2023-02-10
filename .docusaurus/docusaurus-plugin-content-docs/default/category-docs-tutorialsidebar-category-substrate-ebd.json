@@ -1,0 +1,16 @@
+{
+  "title": "Substrate",
+  "description": "Substrate networks snapshots.",
+  "slug": "/category/substrate",
+  "permalink": "/docs/category/substrate",
+  "navigation": {
+    "previous": {
+      "title": "Intro",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Astar",
+      "permalink": "/docs/substrate/astar-snapshot"
+    }
+  }
+}
