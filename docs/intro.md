@@ -27,7 +27,7 @@ Through hard work, our team has earned recognition in the crypto community as a 
 
 # Contact
 
-for more information: [SUPPORT@STAKECRAFT.COM](SUPPORT@STAKECRAFT.COM)
+for more information: SUPPORT@STAKECRAFT.COM
 
 
 
