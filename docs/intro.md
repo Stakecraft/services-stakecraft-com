@@ -4,38 +4,32 @@ sidebar_position: 1
 
 # Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+StakeCraft is a team of geeks with vast experience in programming, developing and managing digital assets.
+we use top notch infrastructure / hardware to run our nodes.
+our team with the highest degree of responsibility approaches management, timely installation of updates and monitoring safety of user funds.
+join us and enjoy earnings from staking your digital assets.
+
+## QUALITY ENVIROMENT
+
+We use the latest infrastructure/hardware and our network is located within state-of-the-art data center facilities.
+
+## TRUSTWORTHY TEAM
+
+Through hard work, our team has earned recognition in the crypto community as a reliable team that approaches with the highest degree of responsibility to all tasks and monitors the security of all data.
+
+## CLIENTS SATISFACTION
+
+## PUBLICITY
+
+## TECHNICAL SUPPORT
+
+## SECURITY
+
+# Contact
+
+for more information: [SUPPORT@STAKECRAFT.COM](SUPPORT@STAKECRAFT.COM)
 
 
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
