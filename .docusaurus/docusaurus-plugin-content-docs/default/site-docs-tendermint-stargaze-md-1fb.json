@@ -21,8 +21,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Juno",
-    "permalink": "/docs/tendermint/juno-snapshot"
+    "title": "Tendermint",
+    "permalink": "/docs/category/tendermint"
   },
   "next": {
     "title": "Other",

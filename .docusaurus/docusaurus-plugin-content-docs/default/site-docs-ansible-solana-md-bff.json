@@ -1,0 +1,31 @@
+{
+  "unversionedId": "ansible/solana",
+  "id": "ansible/solana",
+  "title": "Solana ansbile playbooks!",
+  "description": "The collection of solana ansible playbooks for easier nodes management",
+  "source": "@site/docs/ansible/solana.md",
+  "sourceDirName": "ansible",
+  "slug": "/ansible/solana-playbooks",
+  "permalink": "/docs/ansible/solana-playbooks",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ansible/solana.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Solana",
+    "sidebar_position": 1,
+    "slug": "solana-playbooks",
+    "title": "Solana ansbile playbooks!",
+    "description": "The collection of solana ansible playbooks for easier nodes management"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ansible",
+    "permalink": "/docs/category/ansible"
+  },
+  "next": {
+    "title": "Other",
+    "permalink": "/docs/category/other"
+  }
+}

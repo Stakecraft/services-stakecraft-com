@@ -69,7 +69,10 @@ const config = {
             position: 'left',
             label: 'Services',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { href: 'https://medium.com/stakecraft', 
+            label: 'Blog', 
+            position: 'left',
+          },
           {
             href: 'https://github.com/stakecraft',
             label: 'GitHub',
@@ -84,20 +87,24 @@ const config = {
             title: 'Snapshots',
             items: [
               {
-                label: 'Juno',
-                to: '/docs/tendermint/juno-snapshot',
-              },
-              {
-                label: 'Stargaze',
-                to: '/docs/tendermint/stargaze-snapshot',
-              },
-              {
                 label: 'Astar',
-                to: '/docs/substrate/astar-snapshot',
+                to: '/docs/snapshots/substrate-astar-snapshot',
+              },
+              {
+                label: 'Shiden',
+                to: '/docs/snapshots/substrate-shiden-snapshot',
               },
               {
                 label: 'Moonriver',
-                to: '/docs/substrate/moonriver-snapshot',
+                to: '/docs/snapshots/substrate-moonriver-snapshot',
+              },
+              {
+                label: 'Juno',
+                to: '/docs/snapshots/cosmos-juno-snapshot',
+              },
+              {
+                label: 'Stargaze',
+                to: '/docs/snapshots/cosmos-stargaze-snapshot',
               },
             ],
           },
@@ -123,7 +130,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://medium.com/stakecraft',
               },
               {
                 label: 'GitHub',

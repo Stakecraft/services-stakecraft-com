@@ -3,69 +3,122 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '10b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '2e1'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '9e0'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'd53'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '6e8'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', 'bcf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '63f'),
+    exact: true
+  },
+  {
     path: '/blog',
-    component: ComponentCreator('/blog', '457'),
+    component: ComponentCreator('/blog', '96c'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '5cc'),
+    component: ComponentCreator('/blog/archive', '670'),
     exact: true
   },
   {
     path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '928'),
+    component: ComponentCreator('/blog/first-blog-post', 'ae6'),
     exact: true
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '3f4'),
+    component: ComponentCreator('/blog/long-blog-post', '8bc'),
     exact: true
   },
   {
     path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '33a'),
+    component: ComponentCreator('/blog/mdx-blog-post', '3fb'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '292'),
+    component: ComponentCreator('/blog/tags', '4c1'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '5e9'),
+    component: ComponentCreator('/blog/tags/docusaurus', '30f'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '9c4'),
+    component: ComponentCreator('/blog/tags/facebook', 'f9a'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '1ca'),
+    component: ComponentCreator('/blog/tags/hello', 'd80'),
     exact: true
   },
   {
     path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', 'c5f'),
+    component: ComponentCreator('/blog/tags/hola', '0ba'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'ed6'),
+    component: ComponentCreator('/blog/welcome', '036'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'f38'),
+    component: ComponentCreator('/markdown-page', '58c'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '2bf'),
+    component: ComponentCreator('/docs', 'd70'),
     routes: [
+      {
+        path: '/docs/ansible/solana-playbooks',
+        component: ComponentCreator('/docs/ansible/solana-playbooks', '051'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/ansible',
+        component: ComponentCreator('/docs/category/ansible', 'e7e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/guides',
+        component: ComponentCreator('/docs/category/guides', '1cd'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/category/other',
         component: ComponentCreator('/docs/category/other', 'cc0'),
@@ -73,14 +126,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/substrate',
-        component: ComponentCreator('/docs/category/substrate', 'e2e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/tendermint',
-        component: ComponentCreator('/docs/category/tendermint', 'ef0'),
+        path: '/docs/category/snapshots',
+        component: ComponentCreator('/docs/category/snapshots', 'ac9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -97,12 +144,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/tutorials',
-        component: ComponentCreator('/docs/category/tutorials', 'f40'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
         exact: true,
@@ -115,38 +156,32 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/substrate/astar-snapshot',
-        component: ComponentCreator('/docs/substrate/astar-snapshot', '494'),
+        path: '/docs/snapshots/cosmos-juno-snapshot',
+        component: ComponentCreator('/docs/snapshots/cosmos-juno-snapshot', '343'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/substrate/centrifuge-snapshot',
-        component: ComponentCreator('/docs/substrate/centrifuge-snapshot', 'b57'),
+        path: '/docs/snapshots/cosmos-stargaze-snapshot',
+        component: ComponentCreator('/docs/snapshots/cosmos-stargaze-snapshot', '941'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/substrate/moonriver-snapshot',
-        component: ComponentCreator('/docs/substrate/moonriver-snapshot', '170'),
+        path: '/docs/snapshots/substrate-astar-snapshot',
+        component: ComponentCreator('/docs/snapshots/substrate-astar-snapshot', '5a8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/substrate/shiden-snapshot',
-        component: ComponentCreator('/docs/substrate/shiden-snapshot', 'eaa'),
+        path: '/docs/snapshots/substrate-moonriver-snapshot',
+        component: ComponentCreator('/docs/snapshots/substrate-moonriver-snapshot', '72d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tendermint/juno-snapshot',
-        component: ComponentCreator('/docs/tendermint/juno-snapshot', '1b8'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tendermint/stargaze-snapshot',
-        component: ComponentCreator('/docs/tendermint/stargaze-snapshot', 'c23'),
+        path: '/docs/snapshots/substrate-shiden-snapshot',
+        component: ComponentCreator('/docs/snapshots/substrate-shiden-snapshot', '536'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -208,7 +243,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'ddd'),
+    component: ComponentCreator('/', '31f'),
     exact: true
   },
   {

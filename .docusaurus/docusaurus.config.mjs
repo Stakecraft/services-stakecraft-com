@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/app/website/sidebars.js",
+          "sidebarPath": "/Users/novy/novy/crypto/stakecraft/stakecraft-services-website/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/app/website/src/css/custom.css"
+          "customCss": "/Users/novy/novy/crypto/stakecraft/stakecraft-services-website/src/css/custom.css"
         }
       }
     ]
@@ -54,7 +54,7 @@ export default {
           "label": "Services"
         },
         {
-          "to": "/blog",
+          "href": "https://medium.com/stakecraft",
           "label": "Blog",
           "position": "left"
         },
@@ -73,20 +73,24 @@ export default {
           "title": "Snapshots",
           "items": [
             {
-              "label": "Juno",
-              "to": "/docs/tendermint/juno-snapshot"
-            },
-            {
-              "label": "Stargaze",
-              "to": "/docs/tendermint/stargaze-snapshot"
-            },
-            {
               "label": "Astar",
-              "to": "/docs/substrate/astar-snapshot"
+              "to": "/docs/snapshots/substrate-astar-snapshot"
+            },
+            {
+              "label": "Shiden",
+              "to": "/docs/snapshots/substrate-shiden-snapshot"
             },
             {
               "label": "Moonriver",
-              "to": "/docs/substrate/moonriver-snapshot"
+              "to": "/docs/snapshots/substrate-moonriver-snapshot"
+            },
+            {
+              "label": "Juno",
+              "to": "/docs/snapshots/cosmos-juno-snapshot"
+            },
+            {
+              "label": "Stargaze",
+              "to": "/docs/snapshots/cosmos-stargaze-snapshot"
             }
           ]
         },
@@ -112,7 +116,7 @@ export default {
           "items": [
             {
               "label": "Blog",
-              "to": "/blog"
+              "href": "https://medium.com/stakecraft"
             },
             {
               "label": "GitHub",

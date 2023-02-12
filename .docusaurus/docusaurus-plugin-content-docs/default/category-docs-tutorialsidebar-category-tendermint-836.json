@@ -5,12 +5,12 @@
   "permalink": "/docs/category/tendermint",
   "navigation": {
     "previous": {
-      "title": "Centrifuge",
-      "permalink": "/docs/substrate/centrifuge-snapshot"
+      "title": "Shiden",
+      "permalink": "/docs/snapshots/substrate-shiden-snapshot"
     },
     "next": {
-      "title": "Juno",
-      "permalink": "/docs/tendermint/juno-snapshot"
+      "title": "Stargaze",
+      "permalink": "/docs/tendermint/stargaze-snapshot"
     }
   }
 }

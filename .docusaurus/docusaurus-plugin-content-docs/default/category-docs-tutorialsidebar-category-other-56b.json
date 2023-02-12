@@ -5,8 +5,8 @@
   "permalink": "/docs/category/other",
   "navigation": {
     "previous": {
-      "title": "Stargaze",
-      "permalink": "/docs/tendermint/stargaze-snapshot"
+      "title": "Solana",
+      "permalink": "/docs/ansible/solana-playbooks"
     },
     "next": {
       "title": "The Graph",

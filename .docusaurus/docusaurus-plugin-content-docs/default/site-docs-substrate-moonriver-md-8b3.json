@@ -25,7 +25,7 @@
     "permalink": "/docs/substrate/astar-snapshot"
   },
   "next": {
-    "title": "Shiden",
-    "permalink": "/docs/substrate/shiden-snapshot"
+    "title": "Tendermint",
+    "permalink": "/docs/category/tendermint"
   }
 }

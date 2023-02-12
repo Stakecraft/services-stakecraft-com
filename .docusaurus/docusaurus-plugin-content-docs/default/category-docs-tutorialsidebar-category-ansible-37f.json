@@ -1,0 +1,16 @@
+{
+  "title": "Ansible",
+  "description": "Useful ansible playbooks.",
+  "slug": "/category/ansible",
+  "permalink": "/docs/category/ansible",
+  "navigation": {
+    "previous": {
+      "title": "Stargaze",
+      "permalink": "/docs/snapshots/cosmos-stargaze-snapshot"
+    },
+    "next": {
+      "title": "Solana",
+      "permalink": "/docs/ansible/solana-playbooks"
+    }
+  }
+}

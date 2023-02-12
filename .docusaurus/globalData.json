@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "ansible/solana",
+              "path": "/docs/ansible/solana-playbooks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -21,33 +26,28 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "substrate/astar",
-              "path": "/docs/substrate/astar-snapshot",
+              "id": "snapshots/astar",
+              "path": "/docs/snapshots/substrate-astar-snapshot",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "substrate/centrifuge",
-              "path": "/docs/substrate/centrifuge-snapshot",
+              "id": "snapshots/juno",
+              "path": "/docs/snapshots/cosmos-juno-snapshot",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "substrate/moonriver",
-              "path": "/docs/substrate/moonriver-snapshot",
+              "id": "snapshots/moonriver",
+              "path": "/docs/snapshots/substrate-moonriver-snapshot",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "substrate/shiden",
-              "path": "/docs/substrate/shiden-snapshot",
+              "id": "snapshots/shiden",
+              "path": "/docs/snapshots/substrate-shiden-snapshot",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tendermint/juno",
-              "path": "/docs/tendermint/juno-snapshot",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tendermint/stargaze",
-              "path": "/docs/tendermint/stargaze-snapshot",
+              "id": "snapshots/stargaze",
+              "path": "/docs/snapshots/cosmos-stargaze-snapshot",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -96,13 +96,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/substrate",
-              "path": "/docs/category/substrate",
+              "id": "/category/snapshots",
+              "path": "/docs/category/snapshots",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tendermint",
-              "path": "/docs/category/tendermint",
+              "id": "/category/ansible",
+              "path": "/docs/category/ansible",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -111,8 +111,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorials",
-              "path": "/docs/category/tutorials",
+              "id": "/category/guides",
+              "path": "/docs/category/guides",
               "sidebar": "tutorialSidebar"
             },
             {

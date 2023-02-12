@@ -1,0 +1,31 @@
+{
+  "unversionedId": "snapshots/juno",
+  "id": "snapshots/juno",
+  "title": "Juno",
+  "description": "Smart-Contract Platform",
+  "source": "@site/docs/snapshots/juno.md",
+  "sourceDirName": "snapshots",
+  "slug": "/snapshots/cosmos-juno-snapshot",
+  "permalink": "/docs/snapshots/cosmos-juno-snapshot",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/juno.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "Juno",
+    "sidebar_position": 4,
+    "slug": "cosmos-juno-snapshot",
+    "title": "Juno",
+    "description": "Smart-Contract Platform"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Moonriver",
+    "permalink": "/docs/snapshots/substrate-moonriver-snapshot"
+  },
+  "next": {
+    "title": "Stargaze",
+    "permalink": "/docs/snapshots/cosmos-stargaze-snapshot"
+  }
+}

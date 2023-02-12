@@ -1,0 +1,16 @@
+{
+  "title": "Snapshots",
+  "description": "Blockchain networks snapshots.",
+  "slug": "/category/snapshots",
+  "permalink": "/docs/category/snapshots",
+  "navigation": {
+    "previous": {
+      "title": "Intro",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Astar",
+      "permalink": "/docs/snapshots/substrate-astar-snapshot"
+    }
+  }
+}

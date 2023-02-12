@@ -1,0 +1,31 @@
+{
+  "unversionedId": "snapshots/stargaze",
+  "id": "snapshots/stargaze",
+  "title": "Stargaze",
+  "description": "NFT Marketplace",
+  "source": "@site/docs/snapshots/stargaze.md",
+  "sourceDirName": "snapshots",
+  "slug": "/snapshots/cosmos-stargaze-snapshot",
+  "permalink": "/docs/snapshots/cosmos-stargaze-snapshot",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/stargaze.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_label": "Stargaze",
+    "sidebar_position": 5,
+    "slug": "cosmos-stargaze-snapshot",
+    "title": "Stargaze",
+    "description": "NFT Marketplace"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Juno",
+    "permalink": "/docs/snapshots/cosmos-juno-snapshot"
+  },
+  "next": {
+    "title": "Ansible",
+    "permalink": "/docs/category/ansible"
+  }
+}

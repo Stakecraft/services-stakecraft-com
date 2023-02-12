@@ -20,10 +20,41 @@
           "contentPathLocalized": "/Users/novy/novy/crypto/stakecraft/stakecraft-services-website/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "ansible/solana",
+              "id": "ansible/solana",
+              "title": "Solana ansbile playbooks!",
+              "description": "The collection of solana ansible playbooks for easier nodes management",
+              "source": "@site/docs/ansible/solana.md",
+              "sourceDirName": "ansible",
+              "slug": "/ansible/solana-playbooks",
+              "permalink": "/docs/ansible/solana-playbooks",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/ansible/solana.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Solana",
+                "sidebar_position": 1,
+                "slug": "solana-playbooks",
+                "title": "Solana ansbile playbooks!",
+                "description": "The collection of solana ansible playbooks for easier nodes management"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ansible",
+                "permalink": "/docs/category/ansible"
+              },
+              "next": {
+                "title": "Other",
+                "permalink": "/docs/category/other"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "description": "StakeCraft is a team of geeks with vast experience in programming, developing and managing digital assets.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -38,8 +69,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Substrate",
-                "permalink": "/docs/category/substrate"
+                "title": "Snapshots",
+                "permalink": "/docs/category/snapshots"
               }
             },
             {
@@ -69,194 +100,163 @@
                 "permalink": "/docs/category/other"
               },
               "next": {
-                "title": "Tutorials",
-                "permalink": "/docs/category/tutorials"
+                "title": "Guides",
+                "permalink": "/docs/category/guides"
               }
             },
             {
-              "unversionedId": "substrate/astar",
-              "id": "substrate/astar",
-              "title": "Astar page title!",
-              "description": "My document description",
-              "source": "@site/docs/substrate/astar.md",
-              "sourceDirName": "substrate",
-              "slug": "/substrate/astar-snapshot",
-              "permalink": "/docs/substrate/astar-snapshot",
+              "unversionedId": "snapshots/astar",
+              "id": "snapshots/astar",
+              "title": "Astar",
+              "description": "Astar network fullnode snapshot",
+              "source": "@site/docs/snapshots/astar.md",
+              "sourceDirName": "snapshots",
+              "slug": "/snapshots/substrate-astar-snapshot",
+              "permalink": "/docs/snapshots/substrate-astar-snapshot",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/substrate/astar.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/astar.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_label": "Astar",
                 "sidebar_position": 1,
-                "slug": "astar-snapshot",
-                "title": "Astar page title!",
-                "description": "My document description"
+                "slug": "substrate-astar-snapshot",
+                "title": "Astar",
+                "description": "Astar network fullnode snapshot"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Substrate",
-                "permalink": "/docs/category/substrate"
+                "title": "Snapshots",
+                "permalink": "/docs/category/snapshots"
               },
               "next": {
-                "title": "Moonriver",
-                "permalink": "/docs/substrate/moonriver-snapshot"
+                "title": "Shiden",
+                "permalink": "/docs/snapshots/substrate-shiden-snapshot"
               }
             },
             {
-              "unversionedId": "substrate/centrifuge",
-              "id": "substrate/centrifuge",
-              "title": "Centrifuge page title!",
-              "description": "My document description",
-              "source": "@site/docs/substrate/centrifuge.md",
-              "sourceDirName": "substrate",
-              "slug": "/substrate/centrifuge-snapshot",
-              "permalink": "/docs/substrate/centrifuge-snapshot",
+              "unversionedId": "snapshots/juno",
+              "id": "snapshots/juno",
+              "title": "Juno",
+              "description": "Smart-Contract Platform",
+              "source": "@site/docs/snapshots/juno.md",
+              "sourceDirName": "snapshots",
+              "slug": "/snapshots/cosmos-juno-snapshot",
+              "permalink": "/docs/snapshots/cosmos-juno-snapshot",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/substrate/centrifuge.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/juno.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_label": "Juno",
+                "sidebar_position": 4,
+                "slug": "cosmos-juno-snapshot",
+                "title": "Juno",
+                "description": "Smart-Contract Platform"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Moonriver",
+                "permalink": "/docs/snapshots/substrate-moonriver-snapshot"
+              },
+              "next": {
+                "title": "Stargaze",
+                "permalink": "/docs/snapshots/cosmos-stargaze-snapshot"
+              }
+            },
+            {
+              "unversionedId": "snapshots/moonriver",
+              "id": "snapshots/moonriver",
+              "title": "moonriver",
+              "description": "moonriver network fullnode snapshot",
+              "source": "@site/docs/snapshots/moonriver.md",
+              "sourceDirName": "snapshots",
+              "slug": "/snapshots/substrate-moonriver-snapshot",
+              "permalink": "/docs/snapshots/substrate-moonriver-snapshot",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/moonriver.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_label": "Centrifuge",
-                "sidebar_position": 3,
-                "slug": "centrifuge-snapshot",
-                "title": "Centrifuge page title!",
-                "description": "My document description"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Shiden",
-                "permalink": "/docs/substrate/shiden-snapshot"
-              },
-              "next": {
-                "title": "Tendermint",
-                "permalink": "/docs/category/tendermint"
-              }
-            },
-            {
-              "unversionedId": "substrate/moonriver",
-              "id": "substrate/moonriver",
-              "title": "Moonriver page title!",
-              "description": "My document description",
-              "source": "@site/docs/substrate/moonriver.md",
-              "sourceDirName": "substrate",
-              "slug": "/substrate/moonriver-snapshot",
-              "permalink": "/docs/substrate/moonriver-snapshot",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/substrate/moonriver.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
                 "sidebar_label": "Moonriver",
-                "sidebar_position": 2,
-                "slug": "moonriver-snapshot",
-                "title": "Moonriver page title!",
-                "description": "My document description"
+                "sidebar_position": 3,
+                "slug": "substrate-moonriver-snapshot",
+                "title": "moonriver",
+                "description": "moonriver network fullnode snapshot"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Astar",
-                "permalink": "/docs/substrate/astar-snapshot"
+                "title": "Shiden",
+                "permalink": "/docs/snapshots/substrate-shiden-snapshot"
               },
               "next": {
-                "title": "Shiden",
-                "permalink": "/docs/substrate/shiden-snapshot"
+                "title": "Juno",
+                "permalink": "/docs/snapshots/cosmos-juno-snapshot"
               }
             },
             {
-              "unversionedId": "substrate/shiden",
-              "id": "substrate/shiden",
-              "title": "Shiden page title!",
-              "description": "My document description",
-              "source": "@site/docs/substrate/shiden.md",
-              "sourceDirName": "substrate",
-              "slug": "/substrate/shiden-snapshot",
-              "permalink": "/docs/substrate/shiden-snapshot",
+              "unversionedId": "snapshots/shiden",
+              "id": "snapshots/shiden",
+              "title": "Shiden",
+              "description": "Shiden network fullnode snapshot",
+              "source": "@site/docs/snapshots/shiden.md",
+              "sourceDirName": "snapshots",
+              "slug": "/snapshots/substrate-shiden-snapshot",
+              "permalink": "/docs/snapshots/substrate-shiden-snapshot",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/substrate/shiden.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/shiden.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_label": "Shiden",
                 "sidebar_position": 2,
-                "slug": "shiden-snapshot",
-                "title": "Shiden page title!",
-                "description": "My document description"
+                "slug": "substrate-shiden-snapshot",
+                "title": "Shiden",
+                "description": "Shiden network fullnode snapshot"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Astar",
+                "permalink": "/docs/snapshots/substrate-astar-snapshot"
+              },
+              "next": {
                 "title": "Moonriver",
-                "permalink": "/docs/substrate/moonriver-snapshot"
-              },
-              "next": {
-                "title": "Centrifuge",
-                "permalink": "/docs/substrate/centrifuge-snapshot"
+                "permalink": "/docs/snapshots/substrate-moonriver-snapshot"
               }
             },
             {
-              "unversionedId": "tendermint/juno",
-              "id": "tendermint/juno",
-              "title": "Juno page title!",
-              "description": "Smart-Contract Platform",
-              "source": "@site/docs/tendermint/juno.md",
-              "sourceDirName": "tendermint",
-              "slug": "/tendermint/juno-snapshot",
-              "permalink": "/docs/tendermint/juno-snapshot",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tendermint/juno.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_label": "Juno",
-                "sidebar_position": 1,
-                "slug": "juno-snapshot",
-                "title": "Juno page title!",
-                "description": "Smart-Contract Platform"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tendermint",
-                "permalink": "/docs/category/tendermint"
-              },
-              "next": {
-                "title": "Stargaze",
-                "permalink": "/docs/tendermint/stargaze-snapshot"
-              }
-            },
-            {
-              "unversionedId": "tendermint/stargaze",
-              "id": "tendermint/stargaze",
-              "title": "Stargaze page title!",
+              "unversionedId": "snapshots/stargaze",
+              "id": "snapshots/stargaze",
+              "title": "Stargaze",
               "description": "NFT Marketplace",
-              "source": "@site/docs/tendermint/stargaze.md",
-              "sourceDirName": "tendermint",
-              "slug": "/tendermint/stargaze-snapshot",
-              "permalink": "/docs/tendermint/stargaze-snapshot",
+              "source": "@site/docs/snapshots/stargaze.md",
+              "sourceDirName": "snapshots",
+              "slug": "/snapshots/cosmos-stargaze-snapshot",
+              "permalink": "/docs/snapshots/cosmos-stargaze-snapshot",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tendermint/stargaze.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/stargaze.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 5,
               "frontMatter": {
                 "sidebar_label": "Stargaze",
-                "sidebar_position": 2,
-                "slug": "stargaze-snapshot",
-                "title": "Stargaze page title!",
+                "sidebar_position": 5,
+                "slug": "cosmos-stargaze-snapshot",
+                "title": "Stargaze",
                 "description": "NFT Marketplace"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Juno",
-                "permalink": "/docs/tendermint/juno-snapshot"
+                "permalink": "/docs/snapshots/cosmos-juno-snapshot"
               },
               "next": {
-                "title": "Other",
-                "permalink": "/docs/category/other"
+                "title": "Ansible",
+                "permalink": "/docs/category/ansible"
               }
             },
             {
@@ -508,60 +508,60 @@
               },
               {
                 "type": "category",
-                "label": "Substrate",
+                "label": "Snapshots",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "substrate/astar",
+                    "id": "snapshots/astar",
                     "label": "Astar"
                   },
                   {
                     "type": "doc",
-                    "id": "substrate/moonriver",
-                    "label": "Moonriver"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "substrate/shiden",
+                    "id": "snapshots/shiden",
                     "label": "Shiden"
                   },
                   {
                     "type": "doc",
-                    "id": "substrate/centrifuge",
-                    "label": "Centrifuge"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Substrate networks snapshots.",
-                  "slug": "/category/substrate",
-                  "permalink": "/docs/category/substrate"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Tendermint",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
+                    "id": "snapshots/moonriver",
+                    "label": "Moonriver"
+                  },
                   {
                     "type": "doc",
-                    "id": "tendermint/juno",
+                    "id": "snapshots/juno",
                     "label": "Juno"
                   },
                   {
                     "type": "doc",
-                    "id": "tendermint/stargaze",
+                    "id": "snapshots/stargaze",
                     "label": "Stargaze"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Tendermint networks snapshots.",
-                  "slug": "/category/tendermint",
-                  "permalink": "/docs/category/tendermint"
+                  "description": "Blockchain networks snapshots.",
+                  "slug": "/category/snapshots",
+                  "permalink": "/docs/category/snapshots"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Ansible",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "ansible/solana",
+                    "label": "Solana"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Useful ansible playbooks.",
+                  "slug": "/category/ansible",
+                  "permalink": "/docs/category/ansible"
                 }
               },
               {
@@ -585,7 +585,7 @@
               },
               {
                 "type": "category",
-                "label": "Tutorials",
+                "label": "Guides",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -655,9 +655,9 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "All tutorials.",
-                  "slug": "/category/tutorials",
-                  "permalink": "/docs/category/tutorials"
+                  "description": "All our guides are here.",
+                  "slug": "/category/guides",
+                  "permalink": "/docs/category/guides"
                 }
               }
             ]

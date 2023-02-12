@@ -1,0 +1,31 @@
+{
+  "unversionedId": "snapshots/astar",
+  "id": "snapshots/astar",
+  "title": "Astar",
+  "description": "Astar network fullnode snapshot",
+  "source": "@site/docs/snapshots/astar.md",
+  "sourceDirName": "snapshots",
+  "slug": "/snapshots/substrate-astar-snapshot",
+  "permalink": "/docs/snapshots/substrate-astar-snapshot",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/astar.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Astar",
+    "sidebar_position": 1,
+    "slug": "substrate-astar-snapshot",
+    "title": "Astar",
+    "description": "Astar network fullnode snapshot"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Snapshots",
+    "permalink": "/docs/category/snapshots"
+  },
+  "next": {
+    "title": "Shiden",
+    "permalink": "/docs/snapshots/substrate-shiden-snapshot"
+  }
+}

@@ -17,57 +17,57 @@
       },
       {
         "type": "category",
-        "label": "Substrate",
+        "label": "Snapshots",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Astar",
-            "href": "/docs/substrate/astar-snapshot",
-            "docId": "substrate/astar"
-          },
-          {
-            "type": "link",
-            "label": "Moonriver",
-            "href": "/docs/substrate/moonriver-snapshot",
-            "docId": "substrate/moonriver"
+            "href": "/docs/snapshots/substrate-astar-snapshot",
+            "docId": "snapshots/astar"
           },
           {
             "type": "link",
             "label": "Shiden",
-            "href": "/docs/substrate/shiden-snapshot",
-            "docId": "substrate/shiden"
+            "href": "/docs/snapshots/substrate-shiden-snapshot",
+            "docId": "snapshots/shiden"
           },
           {
             "type": "link",
-            "label": "Centrifuge",
-            "href": "/docs/substrate/centrifuge-snapshot",
-            "docId": "substrate/centrifuge"
+            "label": "Moonriver",
+            "href": "/docs/snapshots/substrate-moonriver-snapshot",
+            "docId": "snapshots/moonriver"
+          },
+          {
+            "type": "link",
+            "label": "Juno",
+            "href": "/docs/snapshots/cosmos-juno-snapshot",
+            "docId": "snapshots/juno"
+          },
+          {
+            "type": "link",
+            "label": "Stargaze",
+            "href": "/docs/snapshots/cosmos-stargaze-snapshot",
+            "docId": "snapshots/stargaze"
           }
         ],
-        "href": "/docs/category/substrate"
+        "href": "/docs/category/snapshots"
       },
       {
         "type": "category",
-        "label": "Tendermint",
+        "label": "Ansible",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Juno",
-            "href": "/docs/tendermint/juno-snapshot",
-            "docId": "tendermint/juno"
-          },
-          {
-            "type": "link",
-            "label": "Stargaze",
-            "href": "/docs/tendermint/stargaze-snapshot",
-            "docId": "tendermint/stargaze"
+            "label": "Solana",
+            "href": "/docs/ansible/solana-playbooks",
+            "docId": "ansible/solana"
           }
         ],
-        "href": "/docs/category/tendermint"
+        "href": "/docs/category/ansible"
       },
       {
         "type": "category",
@@ -86,7 +86,7 @@
       },
       {
         "type": "category",
-        "label": "Tutorials",
+        "label": "Guides",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -163,15 +163,21 @@
             "href": "/docs/category/tutorial---extras"
           }
         ],
-        "href": "/docs/category/tutorials"
+        "href": "/docs/category/guides"
       }
     ]
   },
   "docs": {
+    "ansible/solana": {
+      "id": "ansible/solana",
+      "title": "Solana ansbile playbooks!",
+      "description": "The collection of solana ansible playbooks for easier nodes management",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "description": "StakeCraft is a team of geeks with vast experience in programming, developing and managing digital assets.",
       "sidebar": "tutorialSidebar"
     },
     "other/the-graph": {
@@ -180,39 +186,33 @@
       "description": "My document description",
       "sidebar": "tutorialSidebar"
     },
-    "substrate/astar": {
-      "id": "substrate/astar",
-      "title": "Astar page title!",
-      "description": "My document description",
+    "snapshots/astar": {
+      "id": "snapshots/astar",
+      "title": "Astar",
+      "description": "Astar network fullnode snapshot",
       "sidebar": "tutorialSidebar"
     },
-    "substrate/centrifuge": {
-      "id": "substrate/centrifuge",
-      "title": "Centrifuge page title!",
-      "description": "My document description",
-      "sidebar": "tutorialSidebar"
-    },
-    "substrate/moonriver": {
-      "id": "substrate/moonriver",
-      "title": "Moonriver page title!",
-      "description": "My document description",
-      "sidebar": "tutorialSidebar"
-    },
-    "substrate/shiden": {
-      "id": "substrate/shiden",
-      "title": "Shiden page title!",
-      "description": "My document description",
-      "sidebar": "tutorialSidebar"
-    },
-    "tendermint/juno": {
-      "id": "tendermint/juno",
-      "title": "Juno page title!",
+    "snapshots/juno": {
+      "id": "snapshots/juno",
+      "title": "Juno",
       "description": "Smart-Contract Platform",
       "sidebar": "tutorialSidebar"
     },
-    "tendermint/stargaze": {
-      "id": "tendermint/stargaze",
-      "title": "Stargaze page title!",
+    "snapshots/moonriver": {
+      "id": "snapshots/moonriver",
+      "title": "moonriver",
+      "description": "moonriver network fullnode snapshot",
+      "sidebar": "tutorialSidebar"
+    },
+    "snapshots/shiden": {
+      "id": "snapshots/shiden",
+      "title": "Shiden",
+      "description": "Shiden network fullnode snapshot",
+      "sidebar": "tutorialSidebar"
+    },
+    "snapshots/stargaze": {
+      "id": "snapshots/stargaze",
+      "title": "Stargaze",
       "description": "NFT Marketplace",
       "sidebar": "tutorialSidebar"
     },
