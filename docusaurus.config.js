@@ -69,7 +69,7 @@ const config = {
             position: 'left',
             label: 'Services',
           },
-          { href: 'https://medium.com/stakecraft', 
+          { href: 'https://stakecraft.medium.com', 
             label: 'Blog', 
             position: 'left',
           },
@@ -130,7 +130,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                href: 'https://medium.com/stakecraft',
+                href: 'https://stakecraft.medium.com',
               },
               {
                 label: 'GitHub',
@@ -153,8 +153,8 @@ const config = {
               // options here
               name: "snapshots", // used by CLI, must be path safe
               sourceBaseUrl: "https://snapshots.stakecraft.com/markdown/", // the base url for the markdown (gets prepended to all of the documents when fetching)
-              outDir: "docs/substrate", // the base directory to output to.
-              documents: ["shiden.md", "centrifuge.md"], // the file names to download
+              outDir: "docs/snapshots", // the base directory to output to.
+              documents: ["astar.md", "shiden.md", "q-testnet.md"], // the file names to download
               noRuntimeDownloads: true
           },
       ],
