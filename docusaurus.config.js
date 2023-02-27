@@ -154,7 +154,7 @@ const config = {
               name: "snapshots", // used by CLI, must be path safe
               sourceBaseUrl: "https://snapshots.stakecraft.com/markdown/", // the base url for the markdown (gets prepended to all of the documents when fetching)
               outDir: "docs/snapshots", // the base directory to output to.
-              documents: ["astar.md", "shiden.md", "q-testnet.md", "q-mainnet.md"], // the file names to download
+              documents: ["astar.md", "shiden.md", "q-testnet.md", "q-mainnet.md", "juno.md", "stargaze.md", "agoric.md"], // the file names to download
               noRuntimeDownloads: true
           },
       ],
