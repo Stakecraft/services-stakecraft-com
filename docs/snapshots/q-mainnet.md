@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Q-Mainnet'
-sidebar_position: 6
+sidebar_position: 5
 slug: q-mainnet-snapshot
 title: Q-Mainnet
 description: Q network mainnet snapshot

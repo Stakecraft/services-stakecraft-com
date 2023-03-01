@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Agoric'
-sidebar_position: 8
+sidebar_position: 1
 slug: cosmos-agoric-snapshot
 title: Agoric
 description: Smart-Contract Platform

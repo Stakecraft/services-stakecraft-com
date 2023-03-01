@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Astar'
-sidebar_position: 1
+sidebar_position: 2
 slug: substrate-astar-snapshot
 title: Astar
 description: Astar network fullnode snapshot

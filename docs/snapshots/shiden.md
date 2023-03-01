@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Shiden'
-sidebar_position: 2
+sidebar_position: 3
 slug: substrate-shiden-snapshot
 title: Shiden
 description: Shiden network fullnode snapshot

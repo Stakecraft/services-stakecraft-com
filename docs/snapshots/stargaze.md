@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Stargaze'
-sidebar_position: 5
+sidebar_position: 7
 slug: cosmos-stargaze-snapshot
 title: Stargaze
 description: NFT Marketplace

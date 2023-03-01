@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Q-Testnet'
-sidebar_position: 7
+sidebar_position: 6
 slug: q-testnet-snapshot
 title: Q-Testnet
 description: Q network testnet snapshot
