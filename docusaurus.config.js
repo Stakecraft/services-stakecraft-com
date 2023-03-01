@@ -87,6 +87,10 @@ const config = {
             title: 'Snapshots',
             items: [
               {
+                label: 'Agoric',
+                to: '/docs/snapshots/cosmos-agoric-snapshot',
+              },
+              {
                 label: 'Astar',
                 to: '/docs/snapshots/substrate-astar-snapshot',
               },
@@ -95,12 +99,16 @@ const config = {
                 to: '/docs/snapshots/substrate-shiden-snapshot',
               },
               {
-                label: 'Moonriver',
-                to: '/docs/snapshots/substrate-moonriver-snapshot',
-              },
-              {
                 label: 'Juno',
                 to: '/docs/snapshots/cosmos-juno-snapshot',
+              },
+              {
+                label: 'Q-Mainnet',
+                to: '/docs/snapshots/q-mainnet-snapshot',
+              },
+              {
+                label: 'Q-Testnet',
+                to: '/docs/snapshots/q-testnet-snapshot',
               },
               {
                 label: 'Stargaze',
