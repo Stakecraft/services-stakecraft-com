@@ -1,22 +1,24 @@
-name: test
+name: docusaurus_update
 on:
   push:
     branches:
     - main
 
 env:
-  FIRST_NAME: Mona
+  first_env_var: test  
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: update remote docusaurus
+      - name: update and restart remote docusaurus
         uses: fifsky/ssh-action@master
         with:
           command: |
             cd ~/services-stakecraft-com
             git pull
             /usr/bin/npx docusaurus download-remote-snapshots && npm run build
+            sleep 5
+            sudo systemctl restart docusaurus.service
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
           port: ${{ secrets.PORT }}
