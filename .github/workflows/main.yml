@@ -18,6 +18,7 @@ jobs:
             git pull
             /usr/bin/npx docusaurus download-remote-snapshots && npm run build
             sleep 5
+            echo "Restarting node server"
             sudo systemctl restart docusaurus.service
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
