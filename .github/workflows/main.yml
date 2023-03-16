@@ -10,14 +10,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: ls -a via OPEN SSH Private Key
+      - name: update remote docusaurus
         uses: fifsky/ssh-action@master
         with:
           command: |
             cd ~/services-stakecraft-com
             git pull
             /usr/bin/npx docusaurus download-remote-snapshots && npm run build
-            exit 1
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
           port: ${{ secrets.PORT }}
