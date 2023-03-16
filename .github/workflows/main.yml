@@ -7,7 +7,7 @@ on:
 env:
   FIRST_NAME: Mona
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: ls -a via OPEN SSH Private Key
@@ -22,4 +22,4 @@ jobs:
           user: ${{ secrets.USER }}
           key: ${{ secrets.PRIVATE_KEY}}
 #          pass: ${{ secrets.PASS }}
-          args: "-tt -vvv"
+          args: "-tt -vvv StrictHostKeyChecking=no"
