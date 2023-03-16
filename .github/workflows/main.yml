@@ -22,5 +22,4 @@ jobs:
           user: ${{ secrets.USER }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.PRIVATE_KEY}}
-#          pass: ${{ secrets.PASS }}
-          args: "-tt -vvv StrictHostKeyChecking=no"
+          args: '-tt -vvv -o "StrictHostKeyChecking no"'
