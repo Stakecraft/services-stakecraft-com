@@ -31,7 +31,7 @@ We focus on providing our clients with support to solve problems and keep their 
 
 ## Security
 
-We are not a custodian service.
+We are not a custodian service!
 we do not have physical access to users' funds.
 users are responsible for their funds and have the right to dispose of their funds (delegate or unstake) at their own discretion at any time.
 taking the security of our validator is the number one priority:
