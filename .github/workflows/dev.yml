@@ -1,0 +1,27 @@
+name: dev_docusaurus
+run-name: ${{ github.actor }} is deploying code to dev environment
+on:
+  push:
+    branches:
+    - main
+env:
+  first_env_var: test  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pull fresh code and restart remote docusaurus
+        uses: fifsky/ssh-action@master
+        with:
+          command: |
+            cd ~/services-stakecraft-com
+            git pull
+            /usr/bin/npx docusaurus download-remote-snapshots && npm run build
+            sleep 5
+            echo "Restarting node server"
+            sudo systemctl restart docusaurus.service
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USER }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.PRIVATE_KEY}}
+          args: '-o "StrictHostKeyChecking no"'
