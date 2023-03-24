@@ -35,10 +35,10 @@ We are not a custodian service.
 we do not have physical access to users' funds.
 users are responsible for their funds and have the right to dispose of their funds (delegate or unstake) at their own discretion at any time.
 taking the security of our validator is the number one priority:
-- we use only enterprise-grade data centers with the latest infrastructure/hardware;
-- access to the server is restricted by ssh keys;
-- timely software update;
-- we have our custom-made 24/7 real-time monitoring system that operates from a separate server.
+- we use only enterprise-grade data centers with the latest infrastructure/hardware
+- access to the server is restricted by ssh keys
+- timely software update
+- we have our custom-made 24/7 real-time monitoring system that operates from a separate server
 
 # Contact
 
