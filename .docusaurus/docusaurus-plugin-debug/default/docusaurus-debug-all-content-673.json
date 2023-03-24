@@ -22,7 +22,7 @@
             {
               "unversionedId": "ansible/solana",
               "id": "ansible/solana",
-              "title": "Solana ansbile playbooks!",
+              "title": "Solana Ansible playbooks!",
               "description": "The collection of solana ansible playbooks for easier nodes management",
               "source": "@site/docs/ansible/solana.md",
               "sourceDirName": "ansible",
@@ -37,17 +37,13 @@
                 "sidebar_label": "Solana",
                 "sidebar_position": 1,
                 "slug": "solana-playbooks",
-                "title": "Solana ansbile playbooks!",
+                "title": "Solana Ansible playbooks!",
                 "description": "The collection of solana ansible playbooks for easier nodes management"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Ansible",
                 "permalink": "/docs/category/ansible"
-              },
-              "next": {
-                "title": "Other",
-                "permalink": "/docs/category/other"
               }
             },
             {
@@ -74,34 +70,96 @@
               }
             },
             {
-              "unversionedId": "other/the-graph",
-              "id": "other/the-graph",
-              "title": "The Graph page title!",
-              "description": "My document description",
-              "source": "@site/docs/other/the-graph.md",
-              "sourceDirName": "other",
-              "slug": "/other/thegraph-snapshot",
-              "permalink": "/docs/other/thegraph-snapshot",
+              "unversionedId": "rpc/mainnets",
+              "id": "rpc/mainnets",
+              "title": "RPC testnet endpoints",
+              "description": "The collection of RPC Endpoints that we are supporting.",
+              "source": "@site/docs/rpc/mainnets.md",
+              "sourceDirName": "rpc",
+              "slug": "/rpc/rpc-testnets",
+              "permalink": "/docs/rpc/rpc-testnets",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/other/the-graph.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/rpc/mainnets.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Testnets",
+                "sidebar_position": 2,
+                "slug": "rpc-testnets",
+                "title": "RPC testnet endpoints",
+                "description": "The collection of RPC Endpoints that we are supporting."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Mainnets",
+                "permalink": "/docs/rpc/rpc-mainnets"
+              },
+              "next": {
+                "title": "Ansible",
+                "permalink": "/docs/category/ansible"
+              }
+            },
+            {
+              "unversionedId": "rpc/testnets",
+              "id": "rpc/testnets",
+              "title": "RPC mainnet endpoints",
+              "description": "The collection of RPC Endpoints that we are supporting.",
+              "source": "@site/docs/rpc/testnets.md",
+              "sourceDirName": "rpc",
+              "slug": "/rpc/rpc-mainnets",
+              "permalink": "/docs/rpc/rpc-mainnets",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/rpc/testnets.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_label": "The Graph",
+                "sidebar_label": "Mainnets",
                 "sidebar_position": 1,
-                "slug": "thegraph-snapshot",
-                "title": "The Graph page title!",
-                "description": "My document description"
+                "slug": "rpc-mainnets",
+                "title": "RPC mainnet endpoints",
+                "description": "The collection of RPC Endpoints that we are supporting."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Other",
-                "permalink": "/docs/category/other"
+                "title": "RPC Endpoints",
+                "permalink": "/docs/category/rpc-endpoints"
               },
               "next": {
-                "title": "Guides",
-                "permalink": "/docs/category/guides"
+                "title": "Testnets",
+                "permalink": "/docs/rpc/rpc-testnets"
+              }
+            },
+            {
+              "unversionedId": "snapshots/agoric",
+              "id": "snapshots/agoric",
+              "title": "Agoric",
+              "description": "Smart-Contract Platform",
+              "source": "@site/docs/snapshots/agoric.md",
+              "sourceDirName": "snapshots",
+              "slug": "/snapshots/cosmos-agoric-snapshot",
+              "permalink": "/docs/snapshots/cosmos-agoric-snapshot",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/agoric.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Agoric",
+                "sidebar_position": 1,
+                "slug": "cosmos-agoric-snapshot",
+                "title": "Agoric",
+                "description": "Smart-Contract Platform"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Snapshots",
+                "permalink": "/docs/category/snapshots"
+              },
+              "next": {
+                "title": "Astar",
+                "permalink": "/docs/snapshots/substrate-astar-snapshot"
               }
             },
             {
@@ -117,18 +175,18 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/astar.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_label": "Astar",
-                "sidebar_position": 1,
+                "sidebar_position": 2,
                 "slug": "substrate-astar-snapshot",
                 "title": "Astar",
                 "description": "Astar network fullnode snapshot"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Snapshots",
-                "permalink": "/docs/category/snapshots"
+                "title": "Agoric",
+                "permalink": "/docs/snapshots/cosmos-agoric-snapshot"
               },
               "next": {
                 "title": "Shiden",
@@ -158,43 +216,74 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Moonriver",
-                "permalink": "/docs/snapshots/substrate-moonriver-snapshot"
-              },
-              "next": {
-                "title": "Stargaze",
-                "permalink": "/docs/snapshots/cosmos-stargaze-snapshot"
-              }
-            },
-            {
-              "unversionedId": "snapshots/moonriver",
-              "id": "snapshots/moonriver",
-              "title": "moonriver",
-              "description": "moonriver network fullnode snapshot",
-              "source": "@site/docs/snapshots/moonriver.md",
-              "sourceDirName": "snapshots",
-              "slug": "/snapshots/substrate-moonriver-snapshot",
-              "permalink": "/docs/snapshots/substrate-moonriver-snapshot",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/moonriver.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_label": "Moonriver",
-                "sidebar_position": 3,
-                "slug": "substrate-moonriver-snapshot",
-                "title": "moonriver",
-                "description": "moonriver network fullnode snapshot"
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
                 "title": "Shiden",
                 "permalink": "/docs/snapshots/substrate-shiden-snapshot"
               },
               "next": {
+                "title": "Q-Mainnet",
+                "permalink": "/docs/snapshots/q-mainnet-snapshot"
+              }
+            },
+            {
+              "unversionedId": "snapshots/q-mainnet",
+              "id": "snapshots/q-mainnet",
+              "title": "Q-Mainnet",
+              "description": "Q network mainnet snapshot",
+              "source": "@site/docs/snapshots/q-mainnet.md",
+              "sourceDirName": "snapshots",
+              "slug": "/snapshots/q-mainnet-snapshot",
+              "permalink": "/docs/snapshots/q-mainnet-snapshot",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/q-mainnet.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_label": "Q-Mainnet",
+                "sidebar_position": 5,
+                "slug": "q-mainnet-snapshot",
+                "title": "Q-Mainnet",
+                "description": "Q network mainnet snapshot"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
                 "title": "Juno",
                 "permalink": "/docs/snapshots/cosmos-juno-snapshot"
+              },
+              "next": {
+                "title": "Q-Testnet",
+                "permalink": "/docs/snapshots/q-testnet-snapshot"
+              }
+            },
+            {
+              "unversionedId": "snapshots/q-testnet",
+              "id": "snapshots/q-testnet",
+              "title": "Q-Testnet",
+              "description": "Q network testnet snapshot",
+              "source": "@site/docs/snapshots/q-testnet.md",
+              "sourceDirName": "snapshots",
+              "slug": "/snapshots/q-testnet-snapshot",
+              "permalink": "/docs/snapshots/q-testnet-snapshot",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/q-testnet.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_label": "Q-Testnet",
+                "sidebar_position": 6,
+                "slug": "q-testnet-snapshot",
+                "title": "Q-Testnet",
+                "description": "Q network testnet snapshot"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Q-Mainnet",
+                "permalink": "/docs/snapshots/q-mainnet-snapshot"
+              },
+              "next": {
+                "title": "Stargaze",
+                "permalink": "/docs/snapshots/cosmos-stargaze-snapshot"
               }
             },
             {
@@ -210,10 +299,10 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/shiden.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "sidebar_label": "Shiden",
-                "sidebar_position": 2,
+                "sidebar_position": 3,
                 "slug": "substrate-shiden-snapshot",
                 "title": "Shiden",
                 "description": "Shiden network fullnode snapshot"
@@ -224,8 +313,8 @@
                 "permalink": "/docs/snapshots/substrate-astar-snapshot"
               },
               "next": {
-                "title": "Moonriver",
-                "permalink": "/docs/snapshots/substrate-moonriver-snapshot"
+                "title": "Juno",
+                "permalink": "/docs/snapshots/cosmos-juno-snapshot"
               }
             },
             {
@@ -241,261 +330,22 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/stargaze.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 7,
               "frontMatter": {
                 "sidebar_label": "Stargaze",
-                "sidebar_position": 5,
+                "sidebar_position": 7,
                 "slug": "cosmos-stargaze-snapshot",
                 "title": "Stargaze",
                 "description": "NFT Marketplace"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Juno",
-                "permalink": "/docs/snapshots/cosmos-juno-snapshot"
+                "title": "Q-Testnet",
+                "permalink": "/docs/snapshots/q-testnet-snapshot"
               },
               "next": {
-                "title": "Ansible",
-                "permalink": "/docs/category/ansible"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-basics/congratulations",
-              "id": "tutors/tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutors/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutors/tutorial-basics",
-              "slug": "/tutors/tutorial-basics/congratulations",
-              "permalink": "/docs/tutors/tutorial-basics/congratulations",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutors/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/tutors/tutorial-intro"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-basics/create-a-blog-post",
-              "id": "tutors/tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutors/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutors/tutorial-basics",
-              "slug": "/tutors/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutors/tutorial-basics/create-a-blog-post",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutors/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutors/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-basics/create-a-document",
-              "id": "tutors/tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutors/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutors/tutorial-basics",
-              "slug": "/tutors/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutors/tutorial-basics/create-a-document",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutors/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutors/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-basics/create-a-page",
-              "id": "tutors/tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutors/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutors/tutorial-basics",
-              "slug": "/tutors/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutors/tutorial-basics/create-a-page",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutors/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-basics/deploy-your-site",
-              "id": "tutors/tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutors/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutors/tutorial-basics",
-              "slug": "/tutors/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutors/tutorial-basics/deploy-your-site",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutors/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutors/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-basics/markdown-features",
-              "id": "tutors/tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutors/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutors/tutorial-basics",
-              "slug": "/tutors/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutors/tutorial-basics/markdown-features",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-basics/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutors/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutors/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-extras/manage-docs-versions",
-              "id": "tutors/tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutors/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutors/tutorial-extras",
-              "slug": "/tutors/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutors/tutorial-extras/manage-docs-versions",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutors/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-extras/translate-your-site",
-              "id": "tutors/tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutors/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutors/tutorial-extras",
-              "slug": "/tutors/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutors/tutorial-extras/translate-your-site",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutors/tutorial-extras/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "tutors/tutorial-intro",
-              "id": "tutors/tutorial-intro",
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
-              "source": "@site/docs/tutors/tutorial-intro.md",
-              "sourceDirName": "tutors",
-              "slug": "/tutors/tutorial-intro",
-              "permalink": "/docs/tutors/tutorial-intro",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutors/tutorial-intro.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutors/tutorial-basics/congratulations"
-              },
-              "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "title": "RPC Endpoints",
+                "permalink": "/docs/category/rpc-endpoints"
               }
             }
           ],
@@ -514,6 +364,11 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "snapshots/agoric",
+                    "label": "Agoric"
+                  },
+                  {
+                    "type": "doc",
                     "id": "snapshots/astar",
                     "label": "Astar"
                   },
@@ -524,13 +379,18 @@
                   },
                   {
                     "type": "doc",
-                    "id": "snapshots/moonriver",
-                    "label": "Moonriver"
+                    "id": "snapshots/juno",
+                    "label": "Juno"
                   },
                   {
                     "type": "doc",
-                    "id": "snapshots/juno",
-                    "label": "Juno"
+                    "id": "snapshots/q-mainnet",
+                    "label": "Q-Mainnet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "snapshots/q-testnet",
+                    "label": "Q-Testnet"
                   },
                   {
                     "type": "doc",
@@ -543,6 +403,30 @@
                   "description": "Blockchain networks snapshots.",
                   "slug": "/category/snapshots",
                   "permalink": "/docs/category/snapshots"
+                }
+              },
+              {
+                "type": "category",
+                "label": "RPC Endpoints",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "rpc/testnets",
+                    "label": "Mainnets"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "rpc/mainnets",
+                    "label": "Testnets"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "RPC Endpoints for blockchain networks.",
+                  "slug": "/category/rpc-endpoints",
+                  "permalink": "/docs/category/rpc-endpoints"
                 }
               },
               {
@@ -562,102 +446,6 @@
                   "description": "Useful ansible playbooks.",
                   "slug": "/category/ansible",
                   "permalink": "/docs/category/ansible"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Other",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "other/the-graph",
-                    "label": "The Graph"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Other networks snapshots.",
-                  "slug": "/category/other",
-                  "permalink": "/docs/category/other"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Guides",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "category",
-                    "label": "Tutorial - Basics",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "tutors/tutorial-basics/create-a-page"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "tutors/tutorial-basics/create-a-document"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "tutors/tutorial-basics/create-a-blog-post"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "tutors/tutorial-basics/markdown-features"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "tutors/tutorial-basics/deploy-your-site"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "tutors/tutorial-basics/congratulations"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "5 minutes to learn the most important Docusaurus concepts.",
-                      "slug": "/category/tutorial---basics",
-                      "permalink": "/docs/category/tutorial---basics"
-                    }
-                  },
-                  {
-                    "type": "doc",
-                    "id": "tutors/tutorial-intro"
-                  },
-                  {
-                    "type": "category",
-                    "label": "Tutorial - Extras",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "tutors/tutorial-extras/manage-docs-versions"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "tutors/tutorial-extras/translate-your-site"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "slug": "/category/tutorial---extras",
-                      "permalink": "/docs/category/tutorial---extras"
-                    }
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "All our guides are here.",
-                  "slug": "/category/guides",
-                  "permalink": "/docs/category/guides"
                 }
               }
             ]

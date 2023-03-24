@@ -5,8 +5,8 @@
   "permalink": "/docs/category/ansible",
   "navigation": {
     "previous": {
-      "title": "Stargaze",
-      "permalink": "/docs/snapshots/cosmos-stargaze-snapshot"
+      "title": "Testnets",
+      "permalink": "/docs/rpc/rpc-testnets"
     },
     "next": {
       "title": "Solana",

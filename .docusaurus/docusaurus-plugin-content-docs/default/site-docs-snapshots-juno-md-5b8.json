@@ -21,11 +21,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Moonriver",
-    "permalink": "/docs/snapshots/substrate-moonriver-snapshot"
+    "title": "Shiden",
+    "permalink": "/docs/snapshots/substrate-shiden-snapshot"
   },
   "next": {
-    "title": "Stargaze",
-    "permalink": "/docs/snapshots/cosmos-stargaze-snapshot"
+    "title": "Q-Mainnet",
+    "permalink": "/docs/snapshots/q-mainnet-snapshot"
   }
 }

@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd70'),
+    component: ComponentCreator('/docs', '53f'),
     routes: [
       {
         path: '/docs/ansible/solana-playbooks',
@@ -114,14 +114,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/guides',
-        component: ComponentCreator('/docs/category/guides', '1cd'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/other',
-        component: ComponentCreator('/docs/category/other', 'cc0'),
+        path: '/docs/category/rpc-endpoints',
+        component: ComponentCreator('/docs/category/rpc-endpoints', '1ba'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -132,26 +126,26 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/tutorial---basics',
-        component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/tutorial---extras',
-        component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/other/thegraph-snapshot',
-        component: ComponentCreator('/docs/other/thegraph-snapshot', '8f7'),
+        path: '/docs/rpc/rpc-mainnets',
+        component: ComponentCreator('/docs/rpc/rpc-mainnets', '836'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/rpc/rpc-testnets',
+        component: ComponentCreator('/docs/rpc/rpc-testnets', 'dd8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/snapshots/cosmos-agoric-snapshot',
+        component: ComponentCreator('/docs/snapshots/cosmos-agoric-snapshot', '622'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -168,74 +162,26 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/snapshots/q-mainnet-snapshot',
+        component: ComponentCreator('/docs/snapshots/q-mainnet-snapshot', '47d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/snapshots/q-testnet-snapshot',
+        component: ComponentCreator('/docs/snapshots/q-testnet-snapshot', 'ead'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/snapshots/substrate-astar-snapshot',
         component: ComponentCreator('/docs/snapshots/substrate-astar-snapshot', '5a8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/snapshots/substrate-moonriver-snapshot',
-        component: ComponentCreator('/docs/snapshots/substrate-moonriver-snapshot', '72d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/snapshots/substrate-shiden-snapshot',
         component: ComponentCreator('/docs/snapshots/substrate-shiden-snapshot', '536'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutors/tutorial-basics/congratulations', '7f6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutors/tutorial-basics/create-a-blog-post', 'dd4'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutors/tutorial-basics/create-a-document', 'dee'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutors/tutorial-basics/create-a-page', '904'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutors/tutorial-basics/deploy-your-site', '1a6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutors/tutorial-basics/markdown-features', 'e55'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutors/tutorial-extras/manage-docs-versions', '3cc'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutors/tutorial-extras/translate-your-site', 'c73'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutors/tutorial-intro',
-        component: ComponentCreator('/docs/tutors/tutorial-intro', '9d6'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

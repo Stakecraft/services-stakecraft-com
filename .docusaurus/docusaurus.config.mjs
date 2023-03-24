@@ -54,7 +54,7 @@ export default {
           "label": "Services"
         },
         {
-          "href": "https://medium.com/stakecraft",
+          "href": "https://stakecraft.medium.com",
           "label": "Blog",
           "position": "left"
         },
@@ -73,6 +73,10 @@ export default {
           "title": "Snapshots",
           "items": [
             {
+              "label": "Agoric",
+              "to": "/docs/snapshots/cosmos-agoric-snapshot"
+            },
+            {
               "label": "Astar",
               "to": "/docs/snapshots/substrate-astar-snapshot"
             },
@@ -81,12 +85,16 @@ export default {
               "to": "/docs/snapshots/substrate-shiden-snapshot"
             },
             {
-              "label": "Moonriver",
-              "to": "/docs/snapshots/substrate-moonriver-snapshot"
-            },
-            {
               "label": "Juno",
               "to": "/docs/snapshots/cosmos-juno-snapshot"
+            },
+            {
+              "label": "Q-Mainnet",
+              "to": "/docs/snapshots/q-mainnet-snapshot"
+            },
+            {
+              "label": "Q-Testnet",
+              "to": "/docs/snapshots/q-testnet-snapshot"
             },
             {
               "label": "Stargaze",
@@ -116,7 +124,7 @@ export default {
           "items": [
             {
               "label": "Blog",
-              "href": "https://medium.com/stakecraft"
+              "href": "https://stakecraft.medium.com"
             },
             {
               "label": "GitHub",
@@ -355,10 +363,15 @@ export default {
       {
         "name": "snapshots",
         "sourceBaseUrl": "https://snapshots.stakecraft.com/markdown/",
-        "outDir": "docs/substrate",
+        "outDir": "docs/snapshots",
         "documents": [
+          "astar.md",
           "shiden.md",
-          "centrifuge.md"
+          "q-testnet.md",
+          "q-mainnet.md",
+          "juno.md",
+          "stargaze.md",
+          "agoric.md"
         ],
         "noRuntimeDownloads": true
       }

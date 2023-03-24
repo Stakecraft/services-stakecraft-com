@@ -21,8 +21,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "other/the-graph",
-              "path": "/docs/other/thegraph-snapshot",
+              "id": "rpc/mainnets",
+              "path": "/docs/rpc/rpc-testnets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rpc/testnets",
+              "path": "/docs/rpc/rpc-mainnets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snapshots/agoric",
+              "path": "/docs/snapshots/cosmos-agoric-snapshot",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -36,8 +46,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "snapshots/moonriver",
-              "path": "/docs/snapshots/substrate-moonriver-snapshot",
+              "id": "snapshots/q-mainnet",
+              "path": "/docs/snapshots/q-mainnet-snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "snapshots/q-testnet",
+              "path": "/docs/snapshots/q-testnet-snapshot",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -51,78 +66,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutors/tutorial-basics/congratulations",
-              "path": "/docs/tutors/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutors/tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutors/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutors/tutorial-basics/create-a-document",
-              "path": "/docs/tutors/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutors/tutorial-basics/create-a-page",
-              "path": "/docs/tutors/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutors/tutorial-basics/deploy-your-site",
-              "path": "/docs/tutors/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutors/tutorial-basics/markdown-features",
-              "path": "/docs/tutors/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutors/tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutors/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutors/tutorial-extras/translate-your-site",
-              "path": "/docs/tutors/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutors/tutorial-intro",
-              "path": "/docs/tutors/tutorial-intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/snapshots",
               "path": "/docs/category/snapshots",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/rpc-endpoints",
+              "path": "/docs/category/rpc-endpoints",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/ansible",
               "path": "/docs/category/ansible",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/other",
-              "path": "/docs/category/other",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/guides",
-              "path": "/docs/category/guides",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             }
           ],

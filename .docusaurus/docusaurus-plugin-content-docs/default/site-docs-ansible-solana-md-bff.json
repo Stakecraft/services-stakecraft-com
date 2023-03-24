@@ -1,7 +1,7 @@
 {
   "unversionedId": "ansible/solana",
   "id": "ansible/solana",
-  "title": "Solana ansbile playbooks!",
+  "title": "Solana Ansible playbooks!",
   "description": "The collection of solana ansible playbooks for easier nodes management",
   "source": "@site/docs/ansible/solana.md",
   "sourceDirName": "ansible",
@@ -16,16 +16,12 @@
     "sidebar_label": "Solana",
     "sidebar_position": 1,
     "slug": "solana-playbooks",
-    "title": "Solana ansbile playbooks!",
+    "title": "Solana Ansible playbooks!",
     "description": "The collection of solana ansible playbooks for easier nodes management"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Ansible",
     "permalink": "/docs/category/ansible"
-  },
-  "next": {
-    "title": "Other",
-    "permalink": "/docs/category/other"
   }
 }

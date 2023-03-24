@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkstakecraft_website=self.webpackChunkstakecraft_website||[]).push([[4231],{3769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

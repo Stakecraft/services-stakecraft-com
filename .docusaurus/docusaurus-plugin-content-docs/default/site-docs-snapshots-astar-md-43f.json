@@ -11,18 +11,18 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/astar.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_label": "Astar",
-    "sidebar_position": 1,
+    "sidebar_position": 2,
     "slug": "substrate-astar-snapshot",
     "title": "Astar",
     "description": "Astar network fullnode snapshot"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Snapshots",
-    "permalink": "/docs/category/snapshots"
+    "title": "Agoric",
+    "permalink": "/docs/snapshots/cosmos-agoric-snapshot"
   },
   "next": {
     "title": "Shiden",

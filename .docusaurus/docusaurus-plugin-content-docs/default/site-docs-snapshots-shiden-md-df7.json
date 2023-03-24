@@ -11,10 +11,10 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/snapshots/shiden.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_label": "Shiden",
-    "sidebar_position": 2,
+    "sidebar_position": 3,
     "slug": "substrate-shiden-snapshot",
     "title": "Shiden",
     "description": "Shiden network fullnode snapshot"
@@ -25,7 +25,7 @@
     "permalink": "/docs/snapshots/substrate-astar-snapshot"
   },
   "next": {
-    "title": "Moonriver",
-    "permalink": "/docs/snapshots/substrate-moonriver-snapshot"
+    "title": "Juno",
+    "permalink": "/docs/snapshots/cosmos-juno-snapshot"
   }
 }
