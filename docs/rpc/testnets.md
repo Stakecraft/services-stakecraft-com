@@ -1,8 +1,8 @@
 ---
-sidebar_label: 'Mainnets'
-sidebar_position: 1
-slug: rpc-mainnets
-title: RPC mainnet endpoints
+sidebar_label: 'Testnets'
+sidebar_position: 2
+slug: rpc-testnets
+title: RPC testnet endpoints
 description: The collection of RPC Endpoints that we are supporting.
 ---
 
