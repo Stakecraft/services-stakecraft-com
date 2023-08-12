@@ -104,7 +104,7 @@ const config = {
               },
               {
                 label: 'Polygon',
-                to: '/docs/snapshots/cosmos-polygon-snapshot',
+                to: '/docs/snapshots/polygon-snapshot',
               },
               {
                 label: 'Q-Mainnet',
