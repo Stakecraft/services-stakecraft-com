@@ -20,3 +20,5 @@ description: Maximize the potential of the Koii Network with our specialized Nod
 ### Pricing Plans
 * Monthly Plan: $1,210
 * 6-Month Plan: $7,260
+
+[Send request](mailto:naas%40stakecraft.com?subject=I%20Want%20Koii%20node)
