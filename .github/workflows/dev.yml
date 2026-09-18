@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pull fresh code and restart remote docusaurus
-        uses: fifsky/ssh-action@master
+        uses: fifsky/ssh-action@5a841de87115730aff750ac127773e3b2b3f56dd # master
         with:
           command: |
             cd ~/services-stakecraft-com
